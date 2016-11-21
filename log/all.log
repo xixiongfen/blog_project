@@ -1,0 +1,147 @@
+2016-11-21 00:06:19,503 [Dummy-1:33564] [django.db.backends:90] [utils:execute] [DEBUG]- (0.000) SELECT @@SQL_AUTO_IS_NULL; args=None
+2016-11-21 00:06:19,503 [Dummy-1:33564] [django.db.backends:90] [utils:execute] [DEBUG]- (0.000) SELECT VERSION(); args=None
+2016-11-21 00:06:19,563 [Dummy-1:33564] [django.db.backends:90] [utils:execute] [DEBUG]- (0.000) SHOW FULL TABLES; args=None
+2016-11-21 00:06:19,563 [Dummy-1:33564] [django.db.backends:90] [utils:execute] [DEBUG]- (0.000) SELECT `django_migrations`.`app`, `django_migrations`.`name` FROM `django_migrations`; args=()
+2016-11-21 00:06:42,339 [Thread-2:20856] [django.db.backends:90] [utils:execute] [DEBUG]- (0.000) SELECT @@SQL_AUTO_IS_NULL; args=None
+2016-11-21 00:06:42,339 [Thread-2:20856] [django.db.backends:90] [utils:execute] [DEBUG]- (0.000) SELECT `blog_blogpost`.`id`, `blog_blogpost`.`title`, `blog_blogpost`.`author`, `blog_blogpost`.`slug`, `blog_blogpost`.`body`, `blog_blogpost`.`posted` FROM `blog_blogpost` LIMIT 5; args=()
+2016-11-21 00:06:42,339 [Thread-2:20856] [django.template:929] [base:_resolve_lookup] [DEBUG]- Exception while resolving variable 'get_absolute_url' in template 'index.html'.
+Traceback (most recent call last):
+  File "B:\code\fullstack\blog_system\blog_project_1\lib\site-packages\django\template\base.py", line 915, in _resolve_lookup
+    current = current()
+  File "B:\code\fullstack\blog_system\blog_project_1\lib\site-packages\django\db\models\__init__.py", line 44, in inner
+    return reverse(bits[0], None, *bits[1:3])
+  File "B:\code\fullstack\blog_system\blog_project_1\lib\site-packages\django\urls\base.py", line 91, in reverse
+    return force_text(iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs)))
+  File "B:\code\fullstack\blog_system\blog_project_1\lib\site-packages\django\urls\resolvers.py", line 392, in _reverse_with_prefix
+    (lookup_view_s, args, kwargs, len(patterns), patterns)
+NoReverseMatch: Reverse for 'view_blog_post' with arguments '()' and keyword arguments '{u'slug': u'word'}' not found. 0 pattern(s) tried: []
+2016-11-21 00:06:42,461 [Thread-2:20856] [django.db.backends:90] [utils:execute] [DEBUG]- (0.000) SELECT VERSION(); args=None
+2016-11-21 00:06:42,461 [Thread-2:20856] [django.db.backends:90] [utils:execute] [DEBUG]- (0.000) SELECT `django_session`.`session_key`, `django_session`.`session_data`, `django_session`.`expire_date` FROM `django_session` WHERE (`django_session`.`session_key` = 'cvfzaqqkja6jzy8vxa35nq2saaby3jiv' AND `django_session`.`expire_date` > '2016-11-20 16:06:42.462000'); args=('cvfzaqqkja6jzy8vxa35nq2saaby3jiv', u'2016-11-20 16:06:42.462000')
+2016-11-21 00:06:42,461 [Thread-2:20856] [django.db.backends:90] [utils:execute] [DEBUG]- (0.000) SELECT `auth_user`.`id`, `auth_user`.`password`, `auth_user`.`last_login`, `auth_user`.`is_superuser`, `auth_user`.`username`, `auth_user`.`first_name`, `auth_user`.`last_name`, `auth_user`.`email`, `auth_user`.`is_staff`, `auth_user`.`is_active`, `auth_user`.`date_joined` FROM `auth_user` WHERE `auth_user`.`id` = 1; args=(1,)
+2016-11-21 00:06:42,503 [Thread-2:20856] [django.server:131] [basehttp:log_message] [ERROR]- "GET / HTTP/1.1" 500 179448
+2016-11-21 00:12:01,516 [Dummy-6:35180] [django.db.backends:90] [utils:execute] [DEBUG]- (0.000) SELECT @@SQL_AUTO_IS_NULL; args=None
+2016-11-21 00:12:01,516 [Dummy-6:35180] [django.db.backends:90] [utils:execute] [DEBUG]- (0.000) SELECT VERSION(); args=None
+2016-11-21 00:12:01,638 [Dummy-6:35180] [django.db.backends:90] [utils:execute] [DEBUG]- (0.000) SHOW FULL TABLES; args=None
+2016-11-21 00:12:01,661 [Dummy-6:35180] [django.db.backends:90] [utils:execute] [DEBUG]- (0.002) SELECT `django_migrations`.`app`, `django_migrations`.`name` FROM `django_migrations`; args=()
+2016-11-21 00:12:35,858 [Dummy-6:35072] [django.db.backends:90] [utils:execute] [DEBUG]- (0.000) SELECT @@SQL_AUTO_IS_NULL; args=None
+2016-11-21 00:12:35,861 [Dummy-6:35072] [django.db.backends:90] [utils:execute] [DEBUG]- (0.000) SELECT VERSION(); args=None
+2016-11-21 00:12:35,983 [Dummy-6:35072] [django.db.backends:90] [utils:execute] [DEBUG]- (0.002) SHOW FULL TABLES; args=None
+2016-11-21 00:12:35,993 [Dummy-6:35072] [django.db.backends:90] [utils:execute] [DEBUG]- (0.001) SELECT `django_migrations`.`app`, `django_migrations`.`name` FROM `django_migrations`; args=()
+2016-11-21 09:20:21,562 [Dummy-1:20516] [django.db.backends:90] [utils:execute] [DEBUG]- (0.001) SELECT @@SQL_AUTO_IS_NULL; args=None
+2016-11-21 09:20:21,562 [Dummy-1:20516] [django.db.backends:90] [utils:execute] [DEBUG]- (0.000) SELECT VERSION(); args=None
+2016-11-21 09:20:22,285 [Dummy-1:20516] [django.db.backends:90] [utils:execute] [DEBUG]- (0.142) SHOW FULL TABLES; args=None
+2016-11-21 09:20:22,345 [Dummy-1:20516] [django.db.backends:90] [utils:execute] [DEBUG]- (0.001) SELECT `django_migrations`.`app`, `django_migrations`.`name` FROM `django_migrations`; args=()
+2016-11-21 09:21:04,859 [Thread-2:19980] [django.db.backends:90] [utils:execute] [DEBUG]- (0.000) SELECT @@SQL_AUTO_IS_NULL; args=None
+2016-11-21 09:21:04,859 [Thread-2:19980] [django.db.backends:90] [utils:execute] [DEBUG]- (0.000) SELECT `blog_blogpost`.`id`, `blog_blogpost`.`title`, `blog_blogpost`.`author`, `blog_blogpost`.`slug`, `blog_blogpost`.`body`, `blog_blogpost`.`posted` FROM `blog_blogpost` LIMIT 5; args=()
+2016-11-21 09:21:04,875 [Thread-2:19980] [django.template:929] [base:_resolve_lookup] [DEBUG]- Exception while resolving variable 'get_absolute_url' in template 'index.html'.
+Traceback (most recent call last):
+  File "B:\code\fullstack\blog_system\blog_project_1\lib\site-packages\django\template\base.py", line 915, in _resolve_lookup
+    current = current()
+  File "B:\code\fullstack\blog_system\blog_project_1\lib\site-packages\django\db\models\__init__.py", line 44, in inner
+    return reverse(bits[0], None, *bits[1:3])
+  File "B:\code\fullstack\blog_system\blog_project_1\lib\site-packages\django\urls\base.py", line 91, in reverse
+    return force_text(iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs)))
+  File "B:\code\fullstack\blog_system\blog_project_1\lib\site-packages\django\urls\resolvers.py", line 392, in _reverse_with_prefix
+    (lookup_view_s, args, kwargs, len(patterns), patterns)
+NoReverseMatch: Reverse for 'view_blog_post' with arguments '()' and keyword arguments '{u'slug': u'word'}' not found. 1 pattern(s) tried: ['blog/(?P<slug>).html']
+2016-11-21 09:21:05,045 [Thread-2:19980] [django.db.backends:90] [utils:execute] [DEBUG]- (0.000) SELECT VERSION(); args=None
+2016-11-21 09:21:05,046 [Thread-2:19980] [django.db.backends:90] [utils:execute] [DEBUG]- (0.001) SELECT `django_session`.`session_key`, `django_session`.`session_data`, `django_session`.`expire_date` FROM `django_session` WHERE (`django_session`.`session_key` = 'cvfzaqqkja6jzy8vxa35nq2saaby3jiv' AND `django_session`.`expire_date` > '2016-11-21 01:21:05.044000'); args=('cvfzaqqkja6jzy8vxa35nq2saaby3jiv', u'2016-11-21 01:21:05.044000')
+2016-11-21 09:21:05,058 [Thread-2:19980] [django.db.backends:90] [utils:execute] [DEBUG]- (0.000) SELECT `auth_user`.`id`, `auth_user`.`password`, `auth_user`.`last_login`, `auth_user`.`is_superuser`, `auth_user`.`username`, `auth_user`.`first_name`, `auth_user`.`last_name`, `auth_user`.`email`, `auth_user`.`is_staff`, `auth_user`.`is_active`, `auth_user`.`date_joined` FROM `auth_user` WHERE `auth_user`.`id` = 1; args=(1,)
+2016-11-21 09:21:05,082 [Thread-2:19980] [django.server:131] [basehttp:log_message] [ERROR]- "GET / HTTP/1.1" 500 181391
+2016-11-21 09:21:05,540 [Thread-3:18088] [django.template:929] [base:_resolve_lookup] [DEBUG]- Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "B:\code\fullstack\blog_system\blog_project_1\lib\site-packages\django\template\base.py", line 907, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [name] in u'<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>'
+2016-11-21 09:21:05,540 [Thread-3:18088] [django.server:131] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 2194
+2016-11-21 09:21:05,559 [Thread-4:20028] [django.template:929] [base:_resolve_lookup] [DEBUG]- Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "B:\code\fullstack\blog_system\blog_project_1\lib\site-packages\django\template\base.py", line 907, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [name] in u'<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>'
+2016-11-21 09:21:05,562 [Thread-4:20028] [django.server:131] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 2194
+2016-11-21 09:22:14,572 [Dummy-1:18612] [django.db.backends:90] [utils:execute] [DEBUG]- (0.000) SELECT @@SQL_AUTO_IS_NULL; args=None
+2016-11-21 09:22:14,573 [Dummy-1:18612] [django.db.backends:90] [utils:execute] [DEBUG]- (0.001) SELECT VERSION(); args=None
+2016-11-21 09:22:14,638 [Dummy-1:18612] [django.db.backends:90] [utils:execute] [DEBUG]- (0.001) SHOW FULL TABLES; args=None
+2016-11-21 09:22:14,644 [Dummy-1:18612] [django.db.backends:90] [utils:execute] [DEBUG]- (0.002) SELECT `django_migrations`.`app`, `django_migrations`.`name` FROM `django_migrations`; args=()
+2016-11-21 09:22:18,854 [Thread-2:8356] [django.db.backends:90] [utils:execute] [DEBUG]- (0.000) SELECT @@SQL_AUTO_IS_NULL; args=None
+2016-11-21 09:22:18,855 [Thread-2:8356] [django.db.backends:90] [utils:execute] [DEBUG]- (0.000) SELECT `blog_blogpost`.`id`, `blog_blogpost`.`title`, `blog_blogpost`.`author`, `blog_blogpost`.`slug`, `blog_blogpost`.`body`, `blog_blogpost`.`posted` FROM `blog_blogpost` LIMIT 5; args=()
+2016-11-21 09:22:18,858 [Thread-2:8356] [django.template:929] [base:_resolve_lookup] [DEBUG]- Exception while resolving variable 'get_absolute_url' in template 'index.html'.
+Traceback (most recent call last):
+  File "B:\code\fullstack\blog_system\blog_project_1\lib\site-packages\django\template\base.py", line 915, in _resolve_lookup
+    current = current()
+  File "B:\code\fullstack\blog_system\blog_project_1\lib\site-packages\django\db\models\__init__.py", line 44, in inner
+    return reverse(bits[0], None, *bits[1:3])
+  File "B:\code\fullstack\blog_system\blog_project_1\lib\site-packages\django\urls\base.py", line 91, in reverse
+    return force_text(iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs)))
+  File "B:\code\fullstack\blog_system\blog_project_1\lib\site-packages\django\urls\resolvers.py", line 392, in _reverse_with_prefix
+    (lookup_view_s, args, kwargs, len(patterns), patterns)
+NoReverseMatch: Reverse for 'view_blog_post' with arguments '()' and keyword arguments '{u'slug': u'word'}' not found. 1 pattern(s) tried: ['blog/(?P<slug>[^\\.]).html']
+2016-11-21 09:22:18,956 [Thread-2:8356] [django.db.backends:90] [utils:execute] [DEBUG]- (0.000) SELECT VERSION(); args=None
+2016-11-21 09:22:18,957 [Thread-2:8356] [django.db.backends:90] [utils:execute] [DEBUG]- (0.001) SELECT `django_session`.`session_key`, `django_session`.`session_data`, `django_session`.`expire_date` FROM `django_session` WHERE (`django_session`.`session_key` = 'cvfzaqqkja6jzy8vxa35nq2saaby3jiv' AND `django_session`.`expire_date` > '2016-11-21 01:22:18.955000'); args=('cvfzaqqkja6jzy8vxa35nq2saaby3jiv', u'2016-11-21 01:22:18.955000')
+2016-11-21 09:22:18,959 [Thread-2:8356] [django.db.backends:90] [utils:execute] [DEBUG]- (0.001) SELECT `auth_user`.`id`, `auth_user`.`password`, `auth_user`.`last_login`, `auth_user`.`is_superuser`, `auth_user`.`username`, `auth_user`.`first_name`, `auth_user`.`last_name`, `auth_user`.`email`, `auth_user`.`is_staff`, `auth_user`.`is_active`, `auth_user`.`date_joined` FROM `auth_user` WHERE `auth_user`.`id` = 1; args=(1,)
+2016-11-21 09:22:18,992 [Thread-2:8356] [django.server:131] [basehttp:log_message] [ERROR]- "GET / HTTP/1.1" 500 181638
+2016-11-21 09:22:21,096 [Thread-3:5068] [django.db.backends:90] [utils:execute] [DEBUG]- (0.000) SELECT @@SQL_AUTO_IS_NULL; args=None
+2016-11-21 09:22:21,098 [Thread-3:5068] [django.db.backends:90] [utils:execute] [DEBUG]- (0.001) SELECT `blog_blogpost`.`id`, `blog_blogpost`.`title`, `blog_blogpost`.`author`, `blog_blogpost`.`slug`, `blog_blogpost`.`body`, `blog_blogpost`.`posted` FROM `blog_blogpost` LIMIT 5; args=()
+2016-11-21 09:22:21,098 [Thread-3:5068] [django.template:929] [base:_resolve_lookup] [DEBUG]- Exception while resolving variable 'get_absolute_url' in template 'index.html'.
+Traceback (most recent call last):
+  File "B:\code\fullstack\blog_system\blog_project_1\lib\site-packages\django\template\base.py", line 915, in _resolve_lookup
+    current = current()
+  File "B:\code\fullstack\blog_system\blog_project_1\lib\site-packages\django\db\models\__init__.py", line 44, in inner
+    return reverse(bits[0], None, *bits[1:3])
+  File "B:\code\fullstack\blog_system\blog_project_1\lib\site-packages\django\urls\base.py", line 91, in reverse
+    return force_text(iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs)))
+  File "B:\code\fullstack\blog_system\blog_project_1\lib\site-packages\django\urls\resolvers.py", line 392, in _reverse_with_prefix
+    (lookup_view_s, args, kwargs, len(patterns), patterns)
+NoReverseMatch: Reverse for 'view_blog_post' with arguments '()' and keyword arguments '{u'slug': u'word'}' not found. 1 pattern(s) tried: ['blog/(?P<slug>[^\\.]).html']
+2016-11-21 09:22:21,273 [Thread-3:5068] [django.db.backends:90] [utils:execute] [DEBUG]- (0.001) SELECT VERSION(); args=None
+2016-11-21 09:22:21,273 [Thread-3:5068] [django.db.backends:90] [utils:execute] [DEBUG]- (0.000) SELECT `django_session`.`session_key`, `django_session`.`session_data`, `django_session`.`expire_date` FROM `django_session` WHERE (`django_session`.`session_key` = 'cvfzaqqkja6jzy8vxa35nq2saaby3jiv' AND `django_session`.`expire_date` > '2016-11-21 01:22:21.272000'); args=('cvfzaqqkja6jzy8vxa35nq2saaby3jiv', u'2016-11-21 01:22:21.272000')
+2016-11-21 09:22:21,273 [Thread-3:5068] [django.db.backends:90] [utils:execute] [DEBUG]- (0.000) SELECT `auth_user`.`id`, `auth_user`.`password`, `auth_user`.`last_login`, `auth_user`.`is_superuser`, `auth_user`.`username`, `auth_user`.`first_name`, `auth_user`.`last_name`, `auth_user`.`email`, `auth_user`.`is_staff`, `auth_user`.`is_active`, `auth_user`.`date_joined` FROM `auth_user` WHERE `auth_user`.`id` = 1; args=(1,)
+2016-11-21 09:22:21,319 [Thread-3:5068] [django.server:131] [basehttp:log_message] [ERROR]- "GET / HTTP/1.1" 500 181638
+2016-11-21 09:22:37,974 [Dummy-1:13880] [django.db.backends:90] [utils:execute] [DEBUG]- (0.000) SELECT @@SQL_AUTO_IS_NULL; args=None
+2016-11-21 09:22:37,974 [Dummy-1:13880] [django.db.backends:90] [utils:execute] [DEBUG]- (0.000) SELECT VERSION(); args=None
+2016-11-21 09:22:38,043 [Dummy-1:13880] [django.db.backends:90] [utils:execute] [DEBUG]- (0.002) SHOW FULL TABLES; args=None
+2016-11-21 09:22:38,046 [Dummy-1:13880] [django.db.backends:90] [utils:execute] [DEBUG]- (0.000) SELECT `django_migrations`.`app`, `django_migrations`.`name` FROM `django_migrations`; args=()
+2016-11-21 09:22:48,193 [Thread-2:23256] [django.db.backends:90] [utils:execute] [DEBUG]- (0.000) SELECT @@SQL_AUTO_IS_NULL; args=None
+2016-11-21 09:22:48,194 [Thread-2:23256] [django.db.backends:90] [utils:execute] [DEBUG]- (0.001) SELECT `blog_blogpost`.`id`, `blog_blogpost`.`title`, `blog_blogpost`.`author`, `blog_blogpost`.`slug`, `blog_blogpost`.`body`, `blog_blogpost`.`posted` FROM `blog_blogpost` LIMIT 5; args=()
+2016-11-21 09:22:48,200 [Thread-2:23256] [django.server:131] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 4046
+2016-11-21 09:24:08,581 [Dummy-1:13400] [django.db.backends:90] [utils:execute] [DEBUG]- (0.000) SELECT @@SQL_AUTO_IS_NULL; args=None
+2016-11-21 09:24:08,581 [Dummy-1:13400] [django.db.backends:90] [utils:execute] [DEBUG]- (0.000) SELECT VERSION(); args=None
+2016-11-21 09:24:08,641 [Dummy-1:13400] [django.db.backends:90] [utils:execute] [DEBUG]- (0.000) SHOW FULL TABLES; args=None
+2016-11-21 09:24:08,661 [Dummy-1:13400] [django.db.backends:90] [utils:execute] [DEBUG]- (0.001) SELECT `django_migrations`.`app`, `django_migrations`.`name` FROM `django_migrations`; args=()
+2016-11-21 09:31:49,756 [Dummy-1:25084] [django.db.backends:90] [utils:execute] [DEBUG]- (0.000) SELECT @@SQL_AUTO_IS_NULL; args=None
+2016-11-21 09:31:49,756 [Dummy-1:25084] [django.db.backends:90] [utils:execute] [DEBUG]- (0.000) SELECT VERSION(); args=None
+2016-11-21 09:31:49,823 [Dummy-1:25084] [django.db.backends:90] [utils:execute] [DEBUG]- (0.001) SHOW FULL TABLES; args=None
+2016-11-21 09:31:49,826 [Dummy-1:25084] [django.db.backends:90] [utils:execute] [DEBUG]- (0.000) SELECT `django_migrations`.`app`, `django_migrations`.`name` FROM `django_migrations`; args=()
+2016-11-21 09:41:11,246 [Thread-2:25580] [django.db.backends:90] [utils:execute] [DEBUG]- (0.000) SELECT @@SQL_AUTO_IS_NULL; args=None
+2016-11-21 09:41:11,246 [Thread-2:25580] [django.db.backends:90] [utils:execute] [DEBUG]- (0.000) SELECT `blog_blogpost`.`id`, `blog_blogpost`.`title`, `blog_blogpost`.`author`, `blog_blogpost`.`slug`, `blog_blogpost`.`body`, `blog_blogpost`.`posted` FROM `blog_blogpost` LIMIT 21; args=()
+2016-11-21 09:42:41,631 [Thread-2:25580] [django.db.backends:90] [utils:execute] [DEBUG]- (0.000) SELECT `blog_blogpost`.`id`, `blog_blogpost`.`title`, `blog_blogpost`.`author`, `blog_blogpost`.`slug`, `blog_blogpost`.`body`, `blog_blogpost`.`posted` FROM `blog_blogpost` LIMIT 5; args=()
+2016-11-21 09:42:50,813 [Thread-2:25580] [django.db.backends:90] [utils:execute] [DEBUG]- (0.000) SELECT `blog_blogpost`.`id`, `blog_blogpost`.`title`, `blog_blogpost`.`author`, `blog_blogpost`.`slug`, `blog_blogpost`.`body`, `blog_blogpost`.`posted` FROM `blog_blogpost` LIMIT 5; args=()
+2016-11-21 09:48:23,694 [Thread-2:25580] [django.server:131] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 4046
+2016-11-21 09:48:23,756 [Thread-4:27816] [django.server:131] [basehttp:log_message] [INFO]- "GET /static/css/bootstrap.min.css HTTP/1.1" 304 0
+2016-11-21 09:48:23,756 [Thread-6:27316] [django.server:131] [basehttp:log_message] [INFO]- "GET /static/js/jquery.min.js HTTP/1.1" 304 0
+2016-11-21 09:48:23,773 [Thread-5:27904] [django.server:131] [basehttp:log_message] [INFO]- "GET /static/css/styles.css HTTP/1.1" 304 0
+2016-11-21 09:48:23,773 [Thread-7:27696] [django.server:131] [basehttp:log_message] [INFO]- "GET /static/js/bootstrap.min.js HTTP/1.1" 304 0
+2016-11-21 09:48:23,776 [Thread-8:21760] [django.server:131] [basehttp:log_message] [INFO]- "GET /static/js/bootstrap3-typeahead.min.js HTTP/1.1" 304 0
+2016-11-21 09:48:23,779 [Thread-9:21444] [django.server:131] [basehttp:log_message] [INFO]- "GET /static/js/main.js HTTP/1.1" 304 0
+2016-11-21 09:50:00,141 [Dummy-1:28480] [django.db.backends:90] [utils:execute] [DEBUG]- (0.000) SELECT @@SQL_AUTO_IS_NULL; args=None
+2016-11-21 09:50:00,157 [Dummy-1:28480] [django.db.backends:90] [utils:execute] [DEBUG]- (0.000) SELECT VERSION(); args=None
+2016-11-21 09:50:00,213 [Dummy-1:28480] [django.db.backends:90] [utils:execute] [DEBUG]- (0.000) SHOW FULL TABLES; args=None
+2016-11-21 09:50:00,213 [Dummy-1:28480] [django.db.backends:90] [utils:execute] [DEBUG]- (0.000) SELECT `django_migrations`.`app`, `django_migrations`.`name` FROM `django_migrations`; args=()
+2016-11-21 09:50:19,484 [Thread-2:27500] [django.db.backends:90] [utils:execute] [DEBUG]- (0.000) SELECT @@SQL_AUTO_IS_NULL; args=None
+2016-11-21 09:50:19,487 [Thread-2:27500] [django.db.backends:90] [utils:execute] [DEBUG]- (0.001) SELECT `blog_blogpost`.`id`, `blog_blogpost`.`title`, `blog_blogpost`.`author`, `blog_blogpost`.`slug`, `blog_blogpost`.`body`, `blog_blogpost`.`posted` FROM `blog_blogpost` LIMIT 5; args=()
+2016-11-21 09:50:19,519 [Thread-2:27500] [django.template:929] [base:_resolve_lookup] [DEBUG]- Exception while resolving variable 'get_absolute_url' in template 'index.html'.
+Traceback (most recent call last):
+  File "B:\code\fullstack\blog_system\blog_project_1\lib\site-packages\django\template\base.py", line 915, in _resolve_lookup
+    current = current()
+  File "B:\code\fullstack\blog_system\blog_project_1\lib\site-packages\django\db\models\__init__.py", line 44, in inner
+    return reverse(bits[0], None, *bits[1:3])
+  File "B:\code\fullstack\blog_system\blog_project_1\lib\site-packages\django\urls\base.py", line 91, in reverse
+    return force_text(iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs)))
+  File "B:\code\fullstack\blog_system\blog_project_1\lib\site-packages\django\urls\resolvers.py", line 392, in _reverse_with_prefix
+    (lookup_view_s, args, kwargs, len(patterns), patterns)
+NoReverseMatch: Reverse for 'view_blog_post' with arguments '()' and keyword arguments '{u'slug': u'word'}' not found. 0 pattern(s) tried: []
+2016-11-21 09:53:30,589 [Thread-2:27500] [django.db.backends:90] [utils:execute] [DEBUG]- (0.000) SELECT VERSION(); args=None
+2016-11-21 09:53:30,589 [Thread-2:27500] [django.db.backends:90] [utils:execute] [DEBUG]- (0.000) SELECT `django_session`.`session_key`, `django_session`.`session_data`, `django_session`.`expire_date` FROM `django_session` WHERE (`django_session`.`session_key` = 'cvfzaqqkja6jzy8vxa35nq2saaby3jiv' AND `django_session`.`expire_date` > '2016-11-21 01:53:30.590000'); args=('cvfzaqqkja6jzy8vxa35nq2saaby3jiv', u'2016-11-21 01:53:30.590000')
+2016-11-21 09:53:30,611 [Thread-2:27500] [django.db.backends:90] [utils:execute] [DEBUG]- (0.001) SELECT `auth_user`.`id`, `auth_user`.`password`, `auth_user`.`last_login`, `auth_user`.`is_superuser`, `auth_user`.`username`, `auth_user`.`first_name`, `auth_user`.`last_name`, `auth_user`.`email`, `auth_user`.`is_staff`, `auth_user`.`is_active`, `auth_user`.`date_joined` FROM `auth_user` WHERE `auth_user`.`id` = 1; args=(1,)
+2016-11-21 09:54:51,401 [Thread-2:27500] [django.server:131] [basehttp:log_message] [ERROR]- "GET / HTTP/1.1" 500 181817
